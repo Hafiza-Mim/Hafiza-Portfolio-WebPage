@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f7f6f4;
+}
+
+.resume {
+  display: flex;
+  width: 1000px;
+  margin: 20px auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.left {
+  background: #e8e1d9;
+  width: 35%;
+  padding: 30px;
+}
+
+.photo img {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  z-index: 4;
+  top: 65px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px;
+  margin-bottom: 160px;
+  border: 5px solid white;
+  
+}
+
+.contact, .education, .skills {
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 4;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #000;
+}
+
+p {
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #593d2d;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.circles {
+  float: right;
+  color: #593d2d;
+}
+
+.right {
+  padding: 30px;
+  width: 65%;
+  background: #fef9f6;
+}
+
+.right_box{
+	background-color: #dad3cb;
+	height: 240px;
+	width: 750px;
+	padding: 30px;
+	display: flex;
+	position: relative;
+	z-index: 3;
+	left: -177px;
+	top: -5px;
+}
+
+.right_box1{
+	width: 20%;
+}
+.right_box2{
+	width: 80%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+h3 {
+  margin: 4px 0 14px;
+  font-weight: normal;
+  color: #555;
+}
+
+.summary {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.experience p {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+.language_box {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.language_box1{
+    width: 50%;
+}
+
+.language_box2{
+    width: 50%;
+}
+
+.language .bar {
+  height: 6px;
+  background: #593d2d;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.language .full {
+  width: 35%;
+}
+
+.language .med {
+  width: 35%;
+  background: linear-gradient(to right, #593d2d 60%, #e8e1d9 40%);
+}
+
+.hobbies ul {
+  padding-left: 18px;
+  font-size: 14px;
+  margin: 0;
+}
+
+.hobbies li {
+  margin-bottom: 6px;
+}

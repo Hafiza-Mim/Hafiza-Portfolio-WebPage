@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About | Hafiza Mim</title>
+  <link rel="stylesheet" href="pp12.css"/>
+  <style>
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      color: #3a2c2c;
+      font-size: 20px;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #cbbebe;
+      padding-bottom: 5px;
+    }
+
+    .education-item, .experience-item {
+      margin-bottom: 15px;
+      font-size: 15px;
+      color: #444;
+    }
+
+    .experience-item::before {
+      content: '🍭 ';
+    }
+
+    .skill-bars {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 15px;
+    }
+
+    .skill-circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: conic-gradient(#6a4d3b 75%, #d8c2b6 0%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: bold;
+      font-size: 14px;
+      flex-direction: column;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .skill-circle span {
+      font-size: 12px;
+      color: #fff;
+    }
+
+    .back-nav {
+      margin-top: 40px;
+    }
+
+    .back-nav a {
+      text-decoration: none;
+      color: #6a4d3b;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="profile-pic"></div>
+      <h1>Most Hafiza Khatun Mim</h1>
+      <p class="subtitle">CSE Student</p>
+      <p class="university">World University of Bangladesh</p>
+    </aside>
+
+    <main class="main">
+      <div class="section">
+        <h2>Education</h2>
+        <div class="education-item"><strong>BSc in Computer Science & Engineering</strong><br>World University of Bangladesh (2020–2024)<br>CGPA: 3.79 out of 4.00</div>
+        <div class="education-item"><strong>HSC</strong><br>Govt. Bangabandhu College<br>GPA: 4.50 out of 5.00</div>
+        <div class="education-item"><strong>SSC</strong><br>Jannat Academy<br>GPA: 4.44 out of 5.00</div>
+      </div>
+
+      <div class="section">
+        <h2>Experience</h2>
+        <div class="experience-item">
+          Secretary of Media & Public Relation at WUB Computer Society (2024–Present). Managed all internal and external communication and coordinated with teams for event promotions and publications.
+        </div>
+        <div class="experience-item">
+          Private Tutor (2021–Present). Teaching students from classes 5–10 with a focus on Math, Science, and Computer.
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Skills</h2>
+        <div class="skill-bars">
+          <div class="skill-circle" style="background: conic-gradient(#6a4d3b 90%, #d8c2b6 0%)">
+            90%<br><span>MS Office</span>
+          </div>
+          <div class="skill-circle" style="background: conic-gradient(#6a4d3b 85%, #d8c2b6 0%)">
+            85%<br><span>Event Mgt.</span>
+          </div>
+          <div class="skill-circle" style="background: conic-gradient(#6a4d3b 80%, #d8c2b6 0%)">
+            80%<br><span>Public Relations</span>
+          </div>
+          <div class="skill-circle" style="background: conic-gradient(#6a4d3b 75%, #d8c2b6 0%)">
+            75%<br><span>Tutoring</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="back-nav">
+        <a href="pp1.html">← Back to Home</a> | 
+        <a href="pp3.html">More →</a>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
